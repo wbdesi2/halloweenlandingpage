@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+ position: absolute ;
+	font-family: SHOJUMARU ;
+}
+
+#hero {
+	background-image:url("../img/bg-hero.png");
+	padding: 400px 200px;
+	text-align: center ;
+}
+
+
+#hero h1 {
+	font-family: SHOJUMARU;
+	color: #f49f28 ;
+}
+#hero h3 {
+	color: #999;
+	font-family: "Nanum Pen Script", cursive;
+}
+
+#Offers{
+	padding-top: 100px; 
+	padding-bottom: 200px;
+	align-content: center ;
+	text-align: center; 
+	font-family: "Nanum Pen Script", cursive;
+}
+#FAQ {
+		padding-top: 100px; 
+	padding-bottom: 200px;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: "Nanum Pen Script", cursive;
+	background-color: #f9faf2;
+	     display: flex;
+            justify-content: center;
+            align-items: center;
+}
+ .shop-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+ .shop-button:hover {
+            background-color: #555;
+        }
+#Services {
+	padding-top: 100px; 
+	padding-bottom: 200px;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+}
+  .service-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+  .pumpkin-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+        }
+   .pumpkin-images img {
+            margin-bottom: 10px;
+            width: 60px;
+            height: auto;
+        }
+    .service-text {
+            border-left: 2px solid #5f9ea0; 
+            padding-left: 20px;
+            font-family: "Nanum Pen Script", cursive;
+        }
+        .service-text h2 {
+           
+            font-size: 1.8rem;
+			font-family: "Nanum Pen Script", cursive;
+        }
+        .service-text p {
+            color: #555;
+			font-family: "Nanum Pen Script", cursive;
+        }
+        .service-text a {
+            color: #5f9ea0;
+            text-decoration: none;
+			font-family: "Nanum Pen Script", cursive;
+        }
+
+footer {
+	padding-top: 100px; 
+	padding-bottom: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-color: #f49f28;
+	     display: flex;
+            justify-content: center;
+          
+}
+
+footer p {
+	text-align:center;
+}
